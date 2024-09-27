@@ -12,7 +12,7 @@ from telebot import types
 uid = uuid4()
 csr = token_hex(8) * 2
 
-token = "toook" #توكنك
+token = "8084485795:AAFPAACdA8gLblPaW07-zihsy12jjpD-mWg" #توكنك
 bot = telebot.TeleBot(token, parse_mode="HTML")
 
 @bot.message_handler(commands=['start'])
