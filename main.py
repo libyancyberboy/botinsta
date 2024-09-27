@@ -3,7 +3,7 @@ import requests
 from user_agent import generate_user_agent
 
 # ضع هنا التوكن الخاص بالبوت الخاص بك
-TOKEN = 'YOUR_BOT_TOKEN'
+TOKEN = '8084485795:AAFPAACdA8gLblPaW07-zihsy12jjpD-mWg'
 bot = telebot.TeleBot(TOKEN)
 
 @bot.message_handler(commands=['s'])
